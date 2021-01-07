@@ -9,6 +9,10 @@ function drawStuff() {
 
     ctx.fillStyle = "blue";
     ctx.fillRect(0,125,175,50);
+    ctx.fillRect(125,125,50,175);
+    ctx.fillRect(150,250,175,50);
+    ctx.fillRect(275,125,50,175);
+    ctx.fillRect(275,125,175,50);
 }
 
 function gameUpdate() {
