@@ -4,7 +4,8 @@ var ctx = cvs.getContext("2d");
 setInterval(gameUpdate,1000);
 
 function drawStuff() {
-    ctx.fillRect(0,0,cvs.clientWidth,cvs.height)
+    ctx.fillStyle = "lime";
+    ctx.fillRect(0,0,cvs.clientWidth,cvs.height);
 }
 
 function gameUpdate() {
